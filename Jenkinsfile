@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "tanyawms/k8scicd"
+       registry = "tanyastephens/udacity-capstone"
        GOCACHE = "/tmp"
    }
    stages {
